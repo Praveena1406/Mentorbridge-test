@@ -1,0 +1,56 @@
+openapi: 3.0.0
+info:
+  title: Employee Onboarding at Praveena Tech Company
+  version: 1.0.0
+  description: Employee Onboarding CRUD Operations
+
+paths:
+  /employee:
+    post:
+      tags:
+        - Employee
+      summary: Add employees
+      operationId: addEmployee
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EmployeeDto'
+
+      responses:
+        '201':
+          description: Employee created successfully
+          content:
+            application/json:
+              schema:
+                type: string
+
+    get:
+      tags:
+        - Employee
+      summary: Get all Employees
+      operationId: getAllEmployees
+      responses:
+        '200':
+          description: Get all Employees
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/EmployeeDto'
+
+
+
+components:
+  schemas:
+    EmployeeDto:
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        dept:
+          type: string
+        salary:
+          type: integer
