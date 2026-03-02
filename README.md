@@ -41,8 +41,8 @@ How to find only duplicate elements with its count from the String ArrayList in 
 ## Task 5: Map Names to its Length
 
 #### Question 5 :-
-Question: Given a list of strings representing names, map each name to its length and collect the lengths into a new list.
-Input: ["John", "Alice", "Bob"]
+Question: Given a list of strings representing names, map each name to its length and collect the lengths into a new list.<br>
+Input: ["John", "Alice", "Bob"]<br>
 Expected Output: [4, 5, 3]
 
 #### Explanation :-
@@ -53,10 +53,10 @@ Expected Output: [4, 5, 3]
 
 ## Task 6: Remove Duplicates from List
 #### Question 6 :-
- Given a list of integers with duplicates, remove duplicates and collect the unique elements into a new list.
- Input: [1, 2, 2, 3, 4, 4, 4, 5]
+ Given a list of integers with duplicates, remove duplicates and collect the unique elements into a new list.<br>
+ Input: [1, 2, 2, 3, 4, 4, 4, 5]<br>
  Expected Output: [1, 2, 3, 4, 5]
 
-#### Description :-
+#### Explanation :-
 - Use distinct() method.
 - Collect unique values into a new list.
