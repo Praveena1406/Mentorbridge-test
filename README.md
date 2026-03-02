@@ -37,7 +37,7 @@ How to find only duplicate elements with its count from the String ArrayList in 
 #### Explanation :-
 - Use Collectors.groupingBy() to group elements.
 - Use Collectors.counting() to count frequency.
-- 
+  
 ## Task 5: Map Names to its Length
 
 #### Question 5 :-
