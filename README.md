@@ -35,7 +35,7 @@ src/main/resources
 # Database Configurationn
 Database: PostgreSQL
 ```
-spring.datasource.url=jdbc:postgresql://localhost:5432/bankdb
+spring.datasource.url=jdbc:postgresql://localhost:5432/db_name
 spring.datasource.username=postgres
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
