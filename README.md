@@ -42,11 +42,11 @@ spring.jpa.hibernate.ddl-auto=update
 ```
 # API Endpoints
 
-| Method | Endpoint                           | Description       |
-| ------ | ------------------                 | ----------------- |
-| POST   | /bank/account                      | Create account    |
-| GET    | /bank/account                      | Get all accounts  |
-| GET    | /account/{id}                      | Get account by ID |
-| PUT    | /accounts/deposit/{accountNumber)  | Deposit money     |
-| PUT    | /accounts/withdraw/{accountNumber) | Withdraw money    |
+| Method | Endpoint                               | Description       |
+| ------ | ------------------                     | ----------------- |
+| POST   | /bank/account                          | Create account    |
+| GET    | /bank/account                          | Get all accounts  |
+| GET    | /bank/account/{id}                     | Get account by ID |
+| PUT    | /bank/account/deposit/{accountNumber)  | Deposit money     |
+| PUT    | /bank/account/withdraw/{accountNumber) | Withdraw money    |
 
